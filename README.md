@@ -1,6 +1,6 @@
 # Web Application Capstone - Spring 25
 
-This is the final capstone project for the Spring 2025 session. The project is a web application developed using Django and React.
+This is the final capstone project for the Spring 2025 session. The project is a web application developed using html,CSS and php.
 
 ## 🚀 Features
 - User authentication (Login, Signup)
