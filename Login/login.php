@@ -16,7 +16,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         if (password_verify($password, $user['password'])) {
             $_SESSION['user_id'] = $user['id'];
             $_SESSION['user_name'] = $user['name'];
-            header("Location: products.php"); // Redirect to products page
+            header("Location: index.php"); // Redirect to products page
             exit();
         } else {
             echo "<p>Incorrect password. Please try again.</p>";
@@ -49,6 +49,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             </div>
             <button type="submit" class="btn btn-primary">Login</button>
         </form>
+        <li class="nav-item">
+                    <a class="nav-link" href="signup.php">
+                    <button type="signup" class="btn btn-primary" href="signup.php" >Sign Up</button>
+                    </a>
+                </li>
+                
     </div>
 </body>
 </html>
