@@ -4,10 +4,9 @@
 <div id="hero" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
-            <img src="images/hero1.jpg" class="d-block w-100" alt="Sale Banner">
+            <img src="img/salebanner.jpg" class="d-block w-100" alt="Sale Banner">
             <div class="carousel-caption d-none d-md-block">
-                <h1>Biggest Sale of the Year!</h1>
-                <p>Up to 50% off on all products.</p>
+               
                 <a href="products.php" class="btn btn-primary">Shop Now</a>
                 <div class="text-center mt-4">
     <h3>Join Our Community!</h3>
@@ -18,9 +17,9 @@
             </div>
         </div>
         <div class="carousel-item">
-            <img src="images/hero2.jpg" class="d-block w-100" alt="New Arrivals">
+            <img src="img/new-arrival.jpg" class="d-block w-100" alt="New Arrivals">
             <div class="carousel-caption d-none d-md-block">
-                <h1>New Arrivals</h1>
+    
                 <p>Check out the latest trends.</p>
                 <a href="categories.php" class="btn btn-secondary">Browse Categories</a>
                 
